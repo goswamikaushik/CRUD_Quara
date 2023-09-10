@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color:#B92B27;
+    font-family: "Times New Roman", Times, serif;  
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.post{
+    background-color:blanchedalmond ;
+    width: 100%;
+    border: 2px solid rgb(238, 178, 105);
+}
+
+.uset {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+
+button{
+    background-color: #B92B27;
+    height: 40px;
+    width: 130px; 
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.container{
+    width: 75%;
+}
