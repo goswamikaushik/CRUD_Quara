@@ -1,0 +1,11 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    color:#B92B27;
+    font-family: "Times New Roman", Times, serif;  
+    margin-bottom: 10px;
+    text-align: center;
+}
