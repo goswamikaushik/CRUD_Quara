@@ -14,14 +14,15 @@
                 <h3> @<%= post.username %></h3>
                 
             </div>
-            <% } else { %>
-                <p>Post not found</p>
-                <% } %>
-        <form method="patch" action="">
-            <textarea name="" id="" cols="40" rows="20"><%= post.content%></textarea><br>
+         
+        <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+            <textarea name="content" id="" cols="40" rows="20"><%= post.content%></textarea><br>
 
             <button>Submit</button>
         </form>
+        <% } else { %>
+            <p>Post not found</p>
+            <% } %>
     </div>
 </body>
 

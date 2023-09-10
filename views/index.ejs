@@ -19,6 +19,9 @@
               <div class="innerbtns">
                   <button class="innerbtn"><a href="http://localhost:8080/posts/<%= post.id%>">See in Detail</a></button>
                   <button class="innerbtn"><a href="http://localhost:8080/posts/<%= post.id%>/edit">Edit Post</a></button>
+                 <form method="post" action="/posts/<%= post.id%>?_method=DELETE">
+                    <button class="but">Delete Post</button>
+                 </form>
                 </div>
             </div>
             <% } %>
