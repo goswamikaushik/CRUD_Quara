@@ -23,19 +23,21 @@ h1 {
 a {
     text-decoration: none;
     color: aliceblue;
-    font-weight: 700;
-    
+    font-weight: 700;   
 }
 
-button{
+.outerbtn{
     background-color: #B92B27;
     height: 40px;
     width: 130px; 
     display: block;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .container{
     width: 75%;
+}
+
+.innerbtn{
+    background-color: #B92B27;
 }

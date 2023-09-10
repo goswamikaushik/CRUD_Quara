@@ -3,9 +3,24 @@
     padding: 5px;
 }
 
-h2 {
+h2{
     color:#B92B27;
     font-family: "Times New Roman", Times, serif;  
     margin-bottom: 10px;
-    text-align: center;
+   
+}
+
+.post{
+    background-color:blanchedalmond ;
+    width: 80%;
+    border: 2px solid rgb(238, 178, 105);
+}
+.container{
+    background-color: blanchedalmond;
+    width: 75%;
+}
+
+p{
+    font-weight: 700;
+    font-size: larger;
 }
