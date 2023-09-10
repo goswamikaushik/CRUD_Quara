@@ -41,6 +41,12 @@ a {
 .innerbtn{
     background-color: #B92B27;
     height: 30px;
-    width: 120px; 
-    margin-left: 550px;
+    width: 120px;  
+}
+
+.innerbtns{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: right;  
 }
